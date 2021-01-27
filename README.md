@@ -21,7 +21,7 @@ In this project, there will be a total of seven notebooks:
 1. [Datasets Used](#1-Datasets-Used)
 2. [Exploratory Data Analysis & Data Cleaning](#2-Exploratory-Data-Analysis-&-Data-Cleaning)
 3. [Modeling & Evaluation](#3-Modeling-&-Evaluation)
-4. [Predictions & Conclusion](#4-Predictions & Conclusion)
+4. [Conclusion & Improvements](#4-Conclusion-&-Improvements)
 5. [Python Library Used](#5-Python-Library-Used)
 
 ## Data Used
@@ -73,8 +73,12 @@ Evaluation Metrics used:
 - Precision
 - Accuracy
 
-### 4. Conclusion & Recommendation
+### 4. Conclusion & Improvements
+In this project,we understand the usage of machine learning for predicting football results.  Using the data and Random Forest Classifier, we are only able to get 53% accuracy and F1-Score for the result prediction. Additionally, for home and away goals predictions,we are only able to get 31.2% by using Gradient Boosting and 32.2% by using Support Vector Classifier. Both of the scores are lower than the baseline. The poor scores might be due to not enough data or corresponding features which might help to predict better.
 
+Despite only getting 50% accuracy, it might not be a bad thing as there is more than 50% chance to getting the right result. However, football prediction is not as easy as it seems to be. There are other factors that might come into play and affect the final result, even if we have all the data necessary and able to predict 100%. Other factors include match-fixing, players injuries, match postponement, fatigue, etc.
+
+For the future, I will like to get more data like events during a match, such as a shot on target at 30 min, or a goal by home team at 40 min before half time, or after half time. Other data includes more players data or player-to-player data. With these data, I will be able to explore on more other targets such as halftime and full time scores, which team to score first, which player to score first, number of corners, number of yellow cards and etc.
 
 ### 5. Python Library Used
 - Pandas
