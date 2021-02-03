@@ -1,4 +1,4 @@
-# Capstone---Premier-League-Prediction
+# Premier-League-Prediction
 
 ## Summary
 Football is the most popular sports in the world. It is mostly dominant in Europe, South America and Africa. Countries in these continents have their own football leagues at home. An example will be the English Premier League from England. The league has 20 teams every season and whenever the season ends, the bottom three teams will be relegated to the league below them which is the English Football League. Then, the top three teams from English Football League will be promoted to the Premier League. 
